@@ -38,7 +38,7 @@
     "@prisma/client": "^5.10.2",
     "@vuepress/theme-default": "^2.0.0-rc.17",
     "graphql": "^16.8.1",
-    "graphql-scalars": "^1.22.4",
+    "graphql-scalars": "^1.22.5",
     "prisma": "^5.10.2",
     "reflect-metadata": "^0.2.1",
     "tsconfig-paths": "^4.2.0",
