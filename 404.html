@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.8" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <title>IT4C Backend Boilerplate Documentation</title><meta name="description" content="IT4C Backend Boilerplate Documentation">
+    <link rel="preload" href="/boilerplate-backend/assets/style-BBqKdvbw.css" as="style"><link rel="stylesheet" href="/boilerplate-backend/assets/style-BBqKdvbw.css">
+    <link rel="modulepreload" href="/boilerplate-backend/assets/app-BCA0HO9x.js"><link rel="modulepreload" href="/boilerplate-backend/assets/404.html-UgqqOBaj.js">
+    <link rel="prefetch" href="/boilerplate-backend/assets/LICENSE.html-4hUbuLju.js" as="script"><link rel="prefetch" href="/boilerplate-backend/assets/index.html-jQb_WjNG.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a class="route-link" href="/boilerplate-backend/">Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/boilerplate-backend/assets/app-BCA0HO9x.js" defer></script>
+  </body>
+</html>
