@@ -34,7 +34,7 @@
     "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
-    "@apollo/server": "^4.10.2",
+    "@apollo/server": "^4.10.4",
     "@prisma/client": "^5.12.1",
     "@vuepress/theme-default": "^2.0.0-rc.24",
     "graphql": "^16.8.1",
