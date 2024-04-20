@@ -36,7 +36,7 @@
   "dependencies": {
     "@apollo/server": "^4.10.4",
     "@prisma/client": "^5.12.1",
-    "@vuepress/theme-default": "^2.0.0-rc.24",
+    "@vuepress/theme-default": "^2.0.0-rc.25",
     "graphql": "^16.8.1",
     "graphql-scalars": "^1.23.0",
     "prisma": "^5.12.1",
