@@ -39,7 +39,7 @@
     "@vuepress/theme-default": "^2.0.0-rc.25",
     "graphql": "^16.8.1",
     "graphql-scalars": "^1.23.0",
-    "prisma": "^5.12.1",
+    "prisma": "^5.13.0",
     "reflect-metadata": "^0.2.2",
     "tsconfig-paths": "^4.2.0",
     "type-graphql": "^2.0.0-beta.6"
