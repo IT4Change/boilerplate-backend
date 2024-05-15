@@ -23,6 +23,9 @@ updates:
       applies-to: version-updates
       patterns:
         - "*eslint*"
+      exclude-patterns:
+        - "eslint-plugin-n"
+        - "eslint"
     prisma:
       applies-to: version-updates
       patterns:
