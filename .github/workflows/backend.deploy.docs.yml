@@ -4,6 +4,22 @@ on:
     branches:
       - master
 jobs:
+  files-changed:
+      name: Detect File Changes
+      runs-on: ubuntu-latest
+      outputs:
+        changes: ${{ steps.changes.outputs.backend-test-build-docs }}
+      steps:
+        - uses: actions/checkout@master
+
+        - name: Check for backend docs file changes
+          uses: dorny/paths-filter@v3.0.2
+          id: changes
+          with:
+            token: ${{ github.token }}
+            filters: .github/file-filters.yml
+            list-files: shell
+
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
