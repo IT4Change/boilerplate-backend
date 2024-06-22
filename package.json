@@ -37,7 +37,7 @@
     "@apollo/server": "^4.10.4",
     "@prisma/client": "^5.15.0",
     "@vuepress/theme-default": "^2.0.0-rc.35",
-    "graphql": "^16.8.2",
+    "graphql": "^16.9.0",
     "graphql-scalars": "^1.23.0",
     "prisma": "^5.15.0",
     "reflect-metadata": "^0.2.2",
