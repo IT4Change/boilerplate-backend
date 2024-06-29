@@ -35,11 +35,11 @@
   },
   "dependencies": {
     "@apollo/server": "^4.10.4",
-    "@prisma/client": "^5.15.1",
+    "@prisma/client": "^5.16.1",
     "@vuepress/theme-default": "^2.0.0-rc.37",
     "graphql": "^16.9.0",
     "graphql-scalars": "^1.23.0",
-    "prisma": "^5.15.1",
+    "prisma": "^5.16.1",
     "reflect-metadata": "^0.2.2",
     "tsconfig-paths": "^4.2.0",
     "type-graphql": "^2.0.0-rc.1"
@@ -47,7 +47,7 @@
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.3.0",
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.14.8",
+    "@types/node": "^20.14.9",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
     "@vuepress/bundler-vite": "^2.0.0-rc.9",
