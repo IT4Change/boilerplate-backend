@@ -35,11 +35,11 @@
   },
   "dependencies": {
     "@apollo/server": "^4.10.4",
-    "@prisma/client": "^5.16.1",
+    "@prisma/client": "^5.17.0",
     "@vuepress/theme-default": "^2.0.0-rc.37",
     "graphql": "^16.9.0",
     "graphql-scalars": "^1.23.0",
-    "prisma": "^5.16.1",
+    "prisma": "^5.17.0",
     "reflect-metadata": "^0.2.2",
     "tsconfig-paths": "^4.2.0",
     "type-graphql": "^2.0.0-rc.1"
